@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#282634">
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </RadioGroup>
+
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="227dp"
+            android:layout_height="48dp"
+            android:background="@drawable/shape"
+            android:ems="10"
+            android:hint="Enter username..."
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:textColorHint="@color/white"
+            tools:layout_editor_absoluteX="94dp"
+            tools:layout_editor_absoluteY="76dp" />
+
+        <EditText
+            android:id="@+id/etPassConfirmSignUp"
+            android:layout_width="228dp"
+            android:layout_height="48dp"
+            android:background="@drawable/shape"
+            android:ems="10"
+            android:hint="Confirm password..."
+            android:inputType="textPassword"
+            android:orientation="vertical"
+            android:textColorHint="@color/white"
+            tools:layout_editor_absoluteX="88dp"
+            tools:layout_editor_absoluteY="341dp" />
+
+        <EditText
+            android:id="@+id/etPassSignUp"
+            android:layout_width="229dp"
+            android:layout_height="48dp"
+            android:background="@drawable/shape"
+            android:ems="10"
+            android:hint=" password..."
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/white"
+            tools:layout_editor_absoluteX="87dp"
+            tools:layout_editor_absoluteY="238dp" />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FE4057"
+            android:text="Register"
+            tools:layout_editor_absoluteX="152dp"
+            tools:layout_editor_absoluteY="562dp" />
+
+        <EditText
+            android:id="@+id/etEmailSignUp"
+            android:layout_width="227dp"
+            android:layout_height="48dp"
+            android:background="@drawable/shape"
+            android:ems="10"
+            android:hint="email..."
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:textColorHint="@color/white"
+            tools:layout_editor_absoluteX="94dp"
+            tools:layout_editor_absoluteY="151dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
